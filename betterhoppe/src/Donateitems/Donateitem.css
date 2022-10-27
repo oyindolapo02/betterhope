@@ -1,0 +1,111 @@
+.donateitem {
+
+}
+
+.orgreenfield {
+    height: 27rem;
+    background-color: #214228;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.orgreenfield h1 {
+    font-weight: 900;
+    margin-top: 65px;
+    font-size: 46.93px;
+    line-height: 59.14px;
+}
+
+.orgreenfield p {
+    margin-bottom: 50px;
+    font-size: 26.14px;
+    font-weight: 400;
+}
+
+.lemonorgreenfield {
+    background-color: #C0D647;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+}
+
+.itemstrans {
+    height: 100%;
+    width: 80%;
+    margin-top: -200px;
+    background-color: #EDF4F9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.allto {
+    /* border: solid orangered 2px; */
+    width: 80%;
+}
+
+.itemstransbtn {
+    /* border: solid green 2px; */
+    width: 55%;
+    display: flex;
+}
+
+.itemstransbtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.itemstransbtn :first-child {
+    width: 40%;
+    color: #C0D647;
+    background-color: #F7FCFF;
+}
+
+.itemstransbtn :last-child {
+    width: 70%;
+    background-color: #214228;
+    color: white;
+}
+
+
+.itemin {
+    /* border: solid purple 2px; */
+}
+
+.boldup {
+    /* border: solid yellow 2px; */
+    width: 80%;
+}
+
+.itemsinput {
+    /* border: solid red 2px; */
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.iteminput {
+    /* border: solid yellow 2px; */
+    width: 80%;
+}
+
+.fngo {
+    /* border: solid brown 2px; */
+    width: 80%;
+}
+
+.lastinputt {
+    /* border: blue 2px; */
+    width: 80%;
+}
+
+
+
+.messagearea {
+    /* border: solid purple 2px; */
+}

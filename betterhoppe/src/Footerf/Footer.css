@@ -1,0 +1,162 @@
+.footer {
+    height: 45%;
+    background-color: #214228;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .footer {
+        min-height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.same {
+    width: 30%;
+    height: 80%;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid blue 2px; */
+    /* word-wrap: break-word; */
+}
+
+.same p {
+    color: #F7FCFF;
+    /* border: solid yellow 2px; */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    /* height: 70%; */
+    font-weight: 400;
+    font-size: larger;
+    line-height: 160%;
+    width: 85%;
+    margin-top: 30px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.footerone {
+    /* border: solid blue 2px; */
+}
+
+.footerlist {
+    /* border: solid blueviolet; */
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footerlist li {
+    cursor: pointer;
+    list-style: none;
+    color: greenyellow;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.footertwo {
+    /* border: solid blue 2px; */
+}
+
+.footertwo h3 {
+    color: #C0D647;
+    font-size: x-large;
+}
+
+.footerlisttwo {
+    /* border: solid red 2px; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.footerlisttwo li {
+    list-style: none;
+    color: white;
+    /* border: solid orange 2px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footerlisttwo li:hover {
+    transition: all linear 0.7s;
+    background-color: rgb(72, 167, 72);
+    border: solid rgb(135, 161, 135) 1px;
+    cursor: pointer;
+}
+
+.footerthree {
+    /* border: solid blue 2px; */
+}
+
+.footerthree h3 {
+    color: #C0D647;
+    font-size: x-large;
+}
+
+.footerlistthree {
+    /* border: solid aqua 2px; */
+    margin-top: 30px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.footerlistthree li {
+    color: white;
+    list-style: none;
+    /* border: solid aqua 2px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border: none; */
+}
+
+.footerlistthree li:hover {
+    transition: all linear 0.7s;
+    background-color: rgb(72, 167, 72);
+    border: solid rgb(135, 161, 135) 1px;
+    cursor: pointer;
+}
+
+.footerfour {
+    /* border: solid blue 2px; */
+}
+
+.footerlistfour {
+    /* border: solid yellow 2px; */
+    height: inherit;
+    margin-top: 30px;
+}
+
+.footerform {
+    /* border: solid red 2px; */
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.footerform input {
+    height: 100%;
+}

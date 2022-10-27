@@ -1,0 +1,6 @@
+.campaigns {
+    border: solid purple 2px;
+    background-color: #F0F0F0;
+    height: 100%;
+    /* z-index: 10; */
+}

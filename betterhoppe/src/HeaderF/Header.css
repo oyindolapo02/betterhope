@@ -1,0 +1,121 @@
+.header {
+    background-color: #214228;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    padding: 0px 40px;
+    width: 100%;
+    position: fixed;
+}
+
+.headerimg {
+    /* border: solid yellow 2px; */
+    background-image: url('../images/Vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 1.8rem;
+}
+
+.list {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 70px;
+}
+
+.list ul {
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    list-style: none;
+    font-weight: 800;
+    font-size: large;
+}
+
+
+@media screen and (max-width: 800px) {
+    .list li {
+        display: none;
+    }
+
+    .rightheader h4 {
+        display: none;
+    }
+
+    .hbutton {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 800px) {
+    .menu {
+        display: none;
+    }
+}
+
+
+.list li {
+    list-style: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.list li:hover {
+    transition: all linear 0.7s;
+    background-color: rgb(72, 167, 72);
+    border: solid rgb(135, 161, 135) 1px;
+    cursor: pointer;
+}
+
+.rightheader {
+    /* background-color: rgb(47, 0, 255); */
+    display: flex;
+    /* border: solid yellow 2px; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 15rem; */
+    min-width: 20%;
+    height: 100%;
+}
+
+.rightheader h4 {
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    border: solid green 2px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.rightheader h4:hover {
+    transition: all linear 0.7s;
+    background-color: rgb(72, 167, 72);
+    /* border: solid rgb(135, 161, 135) 1px; */
+    cursor: pointer;
+}
+
+.rightheader button {
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: #C0D647;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* .rightheader button:hover {
+    background-color: white;
+    transition: all linear 0.3s;
+} */

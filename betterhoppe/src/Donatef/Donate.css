@@ -1,0 +1,208 @@
+.donate {
+    /* border: solid purple 3px; */
+    /* height: 80vh; */
+    /* width: 100%; */
+}
+
+.greenfield {
+    /* border: solid green 2px; */
+    background-color: #214228;
+    color: white;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.greenfield h1 {
+    font-weight: 900;
+    margin-top: 85px;
+    font-size: 46.93px;
+    line-height: 59.14px;
+}
+
+.greenfield p {
+    font-size: 26.14px;
+    font-weight: 400;
+    /* padding-bottom: 60px; */
+}
+
+
+.lemongreenfield {
+    /* border: solid yellow 3px; */
+    background-color: #C0D647;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cashtrans {
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 80%;
+    margin-top: -120px;
+    background-color: #EDF4F9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cashotherbtn {
+    /* border: solid black; */
+    display: flex;
+    width: 80%;
+    margin-bottom: 50px;
+    /* height: 30%; */
+}
+
+.cashbtn {
+    width: 55%;
+    display: flex;
+    border: solid pink;
+    /* justify-content: space-between; */
+}
+
+.cashbtn :first-child {
+    width: 40%;
+    background-color: #214228;
+    color: white;
+}
+
+.cashotherbtn :last-child {
+    background-color: #F7FCFF;
+    color: #C0D647;
+    width: 70%;
+    text-align: center;
+    /* border: solid red 2px; */
+}
+
+.cashbtn button {
+    padding: 10px 30px;
+    width: 55%;
+    color: #C0D647;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.info {
+    /* border: solid orangered; */
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.info h3 {
+  margin-bottom: 20px;
+  color: #1F2229;
+}
+
+.data {
+    /* border: solid purple 2px; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 15px; */
+}
+
+.data :first-child {
+    width: 65%;
+}
+
+.data input {
+    width: 30%;
+}
+
+.inp {
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cardbord {
+    /* border: solid blue; */
+}
+
+.input {
+
+}
+
+.cardinf {
+    /* border: solid orange; */
+    /* height: 40%; */
+    width: 80%;
+}
+
+.cardinf h1 {
+    margin-bottom: 15px;
+    color: #1F2229;
+}
+
+.cardpay {
+    /* border: solid silver; */
+}
+
+.cardpayy {
+    /* border: solid purple 2px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardpayy input {
+    width: 30%;
+}
+
+.cardpayy :first-child {
+    width: 65%;
+}
+
+.card {
+    /* border: solid rgb(216, 216, 127); */
+}
+
+.cards {
+    border: solid brown;
+    display: flex;
+}
+
+.card li {
+    border: solid black;
+}
+
+.cardno {
+    /* border: solid #C0D647 2px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardno :first-child {
+    width: 60%;
+}
+
+.cardno input {
+    width: 30%;
+}
+
+.sngo {
+    /* border: solid rgb(44, 32, 218) 2px; */
+}
+
+.sngo input {
+    width: 100%;
+}
+
+.submt {
+    /* border: solid lightblue 2px; */
+    margin-top: 70px;
+}
+
+.submt button {
+    padding: 15px 0px;
+    width: 100%;
+    background-color: #8BC34A;
+    color: white;
+    border-radius: 8.9px;
+    border: none;
+}
