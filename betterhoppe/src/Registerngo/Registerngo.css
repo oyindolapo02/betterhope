@@ -1,0 +1,132 @@
+.greenfields {
+    /* border: solid blue 2px; */
+    background-color: #214228;
+    color: white;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.greenfields h1 {
+    font-weight: 900;
+    margin-top: 85px;
+    font-size: 46.93px;
+    line-height: 59.14px;
+}
+
+.greenfields p {
+    font-size: 26.14px;
+    font-weight: 400;
+    /* padding-bottom: 60px; */
+}
+
+
+.lemongreenfields {
+    /* border: solid yellow 3px; */
+    background-color: #C0D647;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cashtranss {
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 80%;
+    margin-top: -120px;
+    background-color: #EDF4F9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sim {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 9%;
+    margin-top: 53px;
+    margin-bottom: 80px;
+}
+
+.clip {
+    /* border: solid blue 2px; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.clip input {
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: solid 1px #EDF4F9 ;
+}
+
+.clipp {
+    /* border: solid #214228 2px; */
+    width: 35%;
+}
+
+.clipp label {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F2229;
+}
+
+.clipp input {
+    padding-left: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px #EDF4F9;
+}
+
+.cashtranss button {
+    height: 80px;
+    width: 80%;
+}
+
+.clip label {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F2229;
+}
+
+.first {
+    /* border: solid yellow 2px; */
+}
+
+.second {
+    /* border: solid pink 2px; */
+}
+
+.third {
+    /* border: solid aqua 2px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.third label {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1F2229;
+}
+
+.third input {
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: solid 1px #EDF4F9;
+}
+
+.fourth {
+    border: solid #214228 1px;
+    background-color: #C0D647;
+    border-radius: 8.76517px;
+    color: white;
+}

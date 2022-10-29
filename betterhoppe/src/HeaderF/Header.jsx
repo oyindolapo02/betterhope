@@ -30,7 +30,7 @@ const Header = ({listimg, listone, listtwo, listthree, listfour, listfive, right
             <Link to='/Blog'><li>{listfive}</li></Link>
         </div>
         <div className='rightheader'>
-            <h4>{rightlist}</h4>
+            <Link to='/RegisterNGO'><h4>{rightlist}</h4></Link>
             <Link to='/Donate'><button className='hbutton'>{rightlistbtn}</button></Link>
             <div onClick={openmodal} className='menu'><AiOutlineMenu /></div>
         </div>

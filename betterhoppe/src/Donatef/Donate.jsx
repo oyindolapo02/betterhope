@@ -3,9 +3,36 @@ import './Donate.css'
 import Header from '../HeaderF/Header'
 import Footer from '../Footerf/Footer'
 import { Link } from 'react-router-dom'
+import PaystackPop from '@paystack/inline-js' 
+import { useState } from 'react'
 
 
 const Donate = () => {
+  const [email, setemail] = useState('')
+  const [Amount, setAmount] = useState('')
+  const [phone, setphone] = useState('')
+  const [name, setname] = useState('')
+
+  const payment = (e)=> {
+    e.preventDefault();
+    const payStack = new PaystackPop()
+    payStack.newTransaction({
+      key: "pk_test_b76aa3d2758fbf37f3a8b2bf53b0462ebf66e0c9",
+      Amount: Amount * 100,
+      email,
+      name,
+      phone,
+      onSuccess(transaction){
+        let message = `trasaction complete! reference ${transaction.reference}`
+        alert(message)
+      },
+      onCancel(){
+        alert('you just terminated this transaction')
+      }
+    })
+  }
+
+
   return (
     <div className='donate'>
       <Header
@@ -41,7 +68,9 @@ const Donate = () => {
               className='inp'
               type="text" 
               placeholder='Enter Senders FullName' 
-              required 
+              required
+              value={name}
+              onChange = {(e)=> setname(e.target.value)} 
             />
 
             <input
@@ -49,6 +78,8 @@ const Donate = () => {
               type="number"
               placeholder='Enter Senders Phone Number'
               required
+              value={phone}
+              onChange= {(e)=> setphone(e.target.value)}
             />
             </div>
 
@@ -58,36 +89,40 @@ const Donate = () => {
                 type="email"
                 placeholder='Enter Sender Email Address'
                 required
+                value={email}
+                onChange = {(e)=> setemail(e.target.value)}
               />
             </div>
           </div>
 
           <div className='cardinf'>
-            <h1>payment Details</h1>
+            <h1>payment Amounts</h1>
             <div className='cardpay'>
               <div className='cardpayy'>
                 <input 
                   className='inp'
                   type="text"
-                  placeholder='Name on card'
+                  placeholder='Enter your Amount you want to donate'
                   required
+                  value={Amount}
+                  onChange={(e)=> setAmount(e.target.value)}
                 />
 
-                <input
+                {/* <input
                   className='inp'
                   type="number"
                   placeholder='Card Verification Number (CVV)'
                   required
-                />
+                /> */}
               </div>
 
               <div className='card'>
-                <div className='cards'>
+                {/* <div className='cards'>
                   <li>1</li>
                   <li>2</li>
                   <li>3</li>
-                </div>
-                <div className='cardno'>
+                </div> */}
+                {/* <div className='cardno'>
                   <input 
                     className='inp'
                     type="number"
@@ -102,17 +137,17 @@ const Donate = () => {
                     name="" 
                     id="" 
                   />
-                </div>
+                </div> */}
 
                 <div className='sngo'>
-                  <input
+                  {/* <input
                     className='inp'
                     type="text"
                     placeholder='Select the Fondation/NGO'
-                  />
+                  /> */}
                 </div>
                 <div className='submt'>
-                  <button>Proceed With Donation</button>
+                  <button type='submit' onClick={payment}>Proceed With Donation</button>
                 </div>
               </div>
             </div>

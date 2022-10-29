@@ -6,6 +6,7 @@ import Faq from './Faqf/Faq';
 import Blog from './Blogf/Blog';
 import Donate from './Donatef/Donate'
 import Donateitem from './Donateitems/Donateitem';
+import Registerngo from './Registerngo/Registerngo';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Blog' element={<Blog />} />
           <Route path='/Donate' element={<Donate />} />
           <Route path='/Donateitem' element={<Donateitem />} />
+          <Route path='/RegisterNGO' element={<Registerngo />} />
         </Routes>
       </Router>
     </div>
